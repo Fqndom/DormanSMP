@@ -277,3 +277,11 @@
 [01:35:23] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for Gabriel_Kuss AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
 [01:35:23] [Netty Worker IO Thread #3/INFO]: [Gabriel_Kuss] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
 [01:35:23] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34090|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:41:04] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45950]: Connected via websocket
+[01:41:04] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45950]: Origin header is null
+[01:41:04] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45950]: Logged in as 'Gabriel_Kuss'
+[01:41:04] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45950|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:41:04] [Netty Worker IO Thread #0/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:45950] <-> ServerConnector [lobby] has connected
+[01:41:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45950|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:41:54] [Netty Worker IO Thread #0/INFO]: [Gabriel_Kuss] disconnected with: Proxy lost connection to server.
+[01:41:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45950|Gabriel_Kuss] <-> DownstreamBridge <-> [lobby] has disconnected
