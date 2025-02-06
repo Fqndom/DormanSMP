@@ -1,6 +1,6 @@
 listeners:
 - query_port: 25577
-  motd: '&1 The OFFICIAL DHS Eaglercraft Server'
+  motd: '&1The OFFICIAL DHS Eaglercraft Server'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false

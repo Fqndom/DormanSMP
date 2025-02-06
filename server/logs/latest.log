@@ -248,3 +248,63 @@
 [00:36:45] [Server thread/INFO]: Gabriel_Kuss[/[0:0:0:0:0:0:0:1]:42564] logged in with entity id 2527 at ([world]201.8973912625473, 64.0, 273.69999998807907)
 [00:38:27] [Server thread/INFO]: Gabriel_Kuss lost connection: Disconnected
 [00:38:27] [Server thread/INFO]: Gabriel_Kuss left the game.
+[00:43:02] [Thread-10/INFO]: UUID of player Gabriel_Kuss is 6cfbb61b-6156-3162-9adb-df83f7231b1a
+[00:43:02] [Server thread/INFO]: Gabriel_Kuss[/[0:0:0:0:0:0:0:1]:49180] logged in with entity id 2770 at ([world]200.98940676317693, 64.0, 273.421201412516)
+[00:43:26] [Server thread/INFO]: Gabriel_Kuss issued server command: /weather
+[00:43:34] [Server thread/INFO]: Gabriel_Kuss lost connection: Disconnected
+[00:43:34] [Server thread/INFO]: Gabriel_Kuss left the game.
+[00:59:39] [Server thread/INFO]: Usage: /op <player>
+[00:59:44] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[00:59:48] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[00:59:54] [Server thread/INFO]: Usage: /op <player>
+[00:59:58] [Server thread/INFO]: Opped Gabriel_Kuss
+[01:00:09] [Thread-12/INFO]: UUID of player Gabriel_Kuss is 6cfbb61b-6156-3162-9adb-df83f7231b1a
+[01:00:09] [Server thread/INFO]: Gabriel_Kuss[/[0:0:0:0:0:0:0:1]:44770] logged in with entity id 2864 at ([world]186.9901350111687, 65.0, 275.46469755359783)
+[01:00:18] [Server thread/INFO]: Gabriel_Kuss issued server command: /gamemode 1
+[01:00:18] [Server thread/INFO]: [Gabriel_Kuss: Set own game mode to Creative Mode]
+[01:00:59] [Server thread/INFO]: Gabriel_Kuss issued server command: /tpa
+[01:01:05] [Server thread/INFO]: Gabriel_Kuss issued server command: /tpa Gabriel_Kuss
+[01:01:15] [Server thread/INFO]: Gabriel_Kuss issued server command: /give @s command_block
+[01:01:15] [Server thread/INFO]: [Gabriel_Kuss: That player cannot be found]
+[01:02:54] [Server thread/INFO]: Gabriel_Kuss lost connection: Timed out
+[01:02:54] [Server thread/INFO]: Gabriel_Kuss left the game.
+[01:03:51] [Thread-13/INFO]: UUID of player Gabriel_Kuss is 6cfbb61b-6156-3162-9adb-df83f7231b1a
+[01:03:51] [Server thread/INFO]: Gabriel_Kuss[/[0:0:0:0:0:0:0:1]:45256] logged in with entity id 3242 at ([world]173.4807375089498, 76.0, 277.082142705542)
+[01:04:14] [Server thread/INFO]: Gabriel_Kuss lost connection: Disconnected
+[01:04:14] [Server thread/INFO]: Gabriel_Kuss left the game.
+[01:15:26] [Thread-14/INFO]: UUID of player Im_better is e28f2478-06d3-3c60-b43f-332d6dadc479
+[01:15:26] [Server thread/INFO]: Im_better[/[0:0:0:0:0:0:0:1]:35358] logged in with entity id 3302 at ([world]187.5, 80.0, 255.5)
+[01:15:31] [Server thread/INFO]: Im_better lost connection: Disconnected
+[01:15:31] [Server thread/INFO]: Im_better left the game.
+[01:15:45] [Thread-15/INFO]: UUID of player Gabriel_Kuss is 6cfbb61b-6156-3162-9adb-df83f7231b1a
+[01:15:46] [Server thread/INFO]: Gabriel_Kuss[/[0:0:0:0:0:0:0:1]:48144] logged in with entity id 3395 at ([world]173.4807375089498, 76.0, 277.082142705542)
+[01:16:13] [Thread-16/INFO]: UUID of player gonnakms is 8f7e75e8-18d6-38f0-b6a4-c0c4ad6ec888
+[01:16:13] [Server thread/INFO]: gonnakms[/[0:0:0:0:0:0:0:1]:41378] logged in with entity id 3480 at ([world]179.5, 75.0, 256.5)
+[01:16:18] [Async Chat Thread - #0/INFO]: <Gabriel_Kuss> OMG IT WORKS[m
+
+[01:16:21] [Async Chat Thread - #0/INFO]: <Gabriel_Kuss> YAYYYYYY[m
+
+[01:16:27] [Server thread/INFO]: Gabriel_Kuss issued server command: /tpa Gabriel_Kuss gonnakms
+[01:16:28] [Server thread/INFO]: gonnakms issued server command: /ratatatatatata
+[01:16:33] [Server thread/INFO]: Gabriel_Kuss issued server command: /tpa
+[01:16:35] [Server thread/INFO]: Gabriel_Kuss issued server command: /tpa gonnakms
+[01:16:43] [Server thread/INFO]: gonnakms lost connection: Login timed out!
+[01:16:43] [Server thread/INFO]: gonnakms left the game.
+[01:16:43] [Server thread/WARN]: handleDisconnection() called twice
+[01:17:06] [Thread-17/INFO]: UUID of player gonnakms is 8f7e75e8-18d6-38f0-b6a4-c0c4ad6ec888
+[01:17:06] [Server thread/INFO]: gonnakms[/[0:0:0:0:0:0:0:1]:49184] logged in with entity id 3546 at ([world]179.5, 75.0, 256.5)
+[01:17:12] [Server thread/INFO]: gonnakms issued server command: /meow
+[01:17:23] [Async Chat Thread - #1/INFO]: <Gabriel_Kuss> hi[m
+
+[01:17:25] [Server thread/INFO]: gonnakms issued server command: /IMMA KMS
+[01:17:32] [Async Chat Thread - #1/INFO]: <Gabriel_Kuss> did it work[m
+
+[01:17:37] [Server thread/INFO]: gonnakms lost connection: Login timed out!
+[01:17:37] [Server thread/INFO]: gonnakms left the game.
+[01:17:37] [Server thread/WARN]: handleDisconnection() called twice
+[01:17:37] [Server thread/INFO]: Gabriel_Kuss issued server command: /kill
+[01:17:37] [Server thread/INFO]: Gabriel_Kuss fell out of the world
+[01:17:37] [Server thread/INFO]: [Gabriel_Kuss: Killed Gabriel_Kuss]
+[01:17:48] [Server thread/INFO]: Gabriel_Kuss issued server command: /back

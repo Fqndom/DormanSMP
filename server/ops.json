@@ -1,1 +1,8 @@
-["Gabriel_Kuss"]
+[
+  {
+    "uuid": "6cfbb61b-6156-3162-9adb-df83f7231b1a",
+    "name": "Gabriel_Kuss",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

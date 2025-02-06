@@ -43,8 +43,8 @@ world-settings:
       minimum: 45.0
       maximum: 63.0
     max-growth-height:
-      cactus: 3
-      reeds: 3
+      cactus: 50
+      reeds: 10
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
@@ -56,13 +56,13 @@ world-settings:
       hard: 128
     falling-block-height-nerf: 0
     remove-unloaded:
-      enderpearls: true
+      enderpearls: false
       tnt-entities: true
       falling-blocks: true
     remove-invalid-mob-spawner-tile-entities: true
     player-blocking-damage-multiplier: 0.5
     game-mechanics:
-      boats-drop-boats: false
+      boats-drop-boats: true
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
@@ -73,8 +73,8 @@ world-settings:
       falling-blocks: false
     disable-teleportation-suffocation-check: false
     fast-drain:
-      lava: false
-      water: false
+      lava: true
+      water: true
     lava-flow-speed:
       normal: 30
       nether: 10
