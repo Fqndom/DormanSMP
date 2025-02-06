@@ -187,3 +187,5 @@
 [01:23:29] [Query Listener #1/INFO]: Query running on localhost:25565
 [01:23:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@1d3e74f[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:45154) lost connection: Disconnected
 [01:24:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@4c2a085b[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:36436) lost connection: Disconnected
+[01:25:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@281f5a21[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:53418) lost connection: Disconnected
+[01:25:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@36b0912f[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:54078) lost connection: Disconnected
