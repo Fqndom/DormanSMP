@@ -408,3 +408,7 @@
 [12:53:41] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
 [12:53:41] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
 [12:53:41] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[12:59:09] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:59:13] [Server thread/INFO]: Usage: /op <player>
+[12:59:20] [Server thread/INFO]: Opped Gabriel_Kuss

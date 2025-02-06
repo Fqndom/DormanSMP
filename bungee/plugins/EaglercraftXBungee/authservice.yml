@@ -1,5 +1,5 @@
-enable_authentication_system: true
-use_onboard_eaglerx_system: true
+enable_authentication_system: false
+use_onboard_eaglerx_system: flase
 auth_db_uri: 'jdbc:sqlite:eaglercraft_auths.db'
 sql_driver_class: 'internal'
 sql_driver_path: 'internal'
