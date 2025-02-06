@@ -24,7 +24,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
   timeout-time: -1
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   netty-threads: 4
   attribute:
@@ -133,9 +133,9 @@ world-settings:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     view-distance: 4
+    enable-zombie-pigmen-portal-spawns: true
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650

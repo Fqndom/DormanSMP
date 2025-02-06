@@ -1,198 +1,405 @@
-[01:23:26] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[01:23:26] [Server thread/INFO]: Loading properties
-[01:23:26] [Server thread/INFO]: Default game type: SURVIVAL
-[01:23:26] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[01:23:27] [Server thread/INFO]: Debug logging is disabled
-[01:23:27] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[01:23:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:37:23] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[01:37:23] [Server thread/INFO]: Loading properties
+[01:37:23] [Server thread/INFO]: Default game type: SURVIVAL
+[01:37:23] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[01:37:24] [Server thread/INFO]: Debug logging is disabled
+[01:37:24] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[01:37:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[01:23:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:23:27] [Server thread/INFO]: Data value allowed items: 
-[01:23:27] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[01:37:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:37:24] [Server thread/INFO]: Data value allowed items: 
+[01:37:24] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[01:23:27] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[01:37:24] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[01:23:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[01:37:24] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[01:23:27] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[01:37:24] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[01:23:27] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[01:37:24] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[01:23:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[01:37:24] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[01:23:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[01:37:24] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[01:23:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[01:37:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[01:23:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[01:37:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[01:23:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:37:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[01:23:27] [Server thread/INFO]: Generating keypair
-[01:23:27] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[01:23:27] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[01:23:27] [Server thread/INFO]: Using default channel type
-[01:23:27] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[01:23:27] [Server thread/INFO]: Preparing level "world"
-[01:23:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[01:23:27] [Server thread/INFO]: Mob Spawn Range: 4
-[01:23:27] [Server thread/INFO]: Anti X-Ray: true
-[01:23:27] [Server thread/INFO]: 	Engine Mode: 1
-[01:23:27] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[01:23:27] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[01:23:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:23:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[01:23:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:23:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[01:23:27] [Server thread/INFO]: Random Lighting Updates: false
-[01:23:27] [Server thread/INFO]: Structure Info Saving: true
-[01:23:27] [Server thread/INFO]: Sending up to 10 chunks per packet
-[01:23:27] [Server thread/INFO]: Max Entity Collisions: 8
-[01:23:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[01:23:27] [Server thread/INFO]: Max TNT Explosions: 100
-[01:23:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:23:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:23:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:23:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:23:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:23:27] [Server thread/INFO]: View Distance: 4
-[01:23:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:23:27] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[01:23:27] [Server thread/INFO]: Clear tick list: false
-[01:23:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:23:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[01:23:27] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[01:23:27] [Server thread/INFO]: Max height for cactus growth 50. Max height for reed growth 10
-[01:23:27] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[01:23:27] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[01:23:27] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[01:23:27] [Server thread/INFO]: Water over lava flow speed: 5
-[01:23:27] [Server thread/INFO]: Fix TNT cannons: false
-[01:23:27] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[01:23:27] [Server thread/INFO]: Keep spawn chunk loaded: true
-[01:23:27] [Server thread/INFO]: World async lighting: false
-[01:23:27] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[01:23:27] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[01:23:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[01:23:27] [Server thread/INFO]: Mob Spawn Range: 4
-[01:23:27] [Server thread/INFO]: Anti X-Ray: true
-[01:23:27] [Server thread/INFO]: 	Engine Mode: 1
-[01:23:27] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[01:23:27] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[01:23:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:23:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[01:23:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:23:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[01:23:27] [Server thread/INFO]: Random Lighting Updates: false
-[01:23:27] [Server thread/INFO]: Structure Info Saving: true
-[01:23:27] [Server thread/INFO]: Sending up to 10 chunks per packet
-[01:23:27] [Server thread/INFO]: Max Entity Collisions: 8
-[01:23:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[01:23:27] [Server thread/INFO]: Max TNT Explosions: 100
-[01:23:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:23:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:23:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:23:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:23:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:23:27] [Server thread/INFO]: View Distance: 4
-[01:23:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:23:27] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[01:23:27] [Server thread/INFO]: Clear tick list: false
-[01:23:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:23:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[01:23:27] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[01:23:27] [Server thread/INFO]: Max height for cactus growth 50. Max height for reed growth 10
-[01:23:27] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[01:23:27] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[01:23:27] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[01:23:27] [Server thread/INFO]: Water over lava flow speed: 5
-[01:23:27] [Server thread/INFO]: Fix TNT cannons: false
-[01:23:27] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[01:23:27] [Server thread/INFO]: Keep spawn chunk loaded: true
-[01:23:27] [Server thread/INFO]: World async lighting: false
-[01:23:27] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[01:23:27] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[01:23:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[01:23:27] [Server thread/INFO]: Mob Spawn Range: 4
-[01:23:27] [Server thread/INFO]: Anti X-Ray: true
-[01:23:27] [Server thread/INFO]: 	Engine Mode: 1
-[01:23:27] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[01:23:27] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[01:23:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:23:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:23:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[01:23:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:23:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[01:23:27] [Server thread/INFO]: Random Lighting Updates: false
-[01:23:27] [Server thread/INFO]: Structure Info Saving: true
-[01:23:27] [Server thread/INFO]: Sending up to 10 chunks per packet
-[01:23:27] [Server thread/INFO]: Max Entity Collisions: 8
-[01:23:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[01:23:27] [Server thread/INFO]: Max TNT Explosions: 100
-[01:23:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:23:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:23:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:23:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:23:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:23:27] [Server thread/INFO]: View Distance: 4
-[01:23:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:23:27] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[01:23:27] [Server thread/INFO]: Clear tick list: false
-[01:23:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:23:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[01:23:27] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[01:23:27] [Server thread/INFO]: Max height for cactus growth 50. Max height for reed growth 10
-[01:23:27] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[01:23:27] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[01:23:27] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[01:23:27] [Server thread/INFO]: Water over lava flow speed: 5
-[01:23:27] [Server thread/INFO]: Fix TNT cannons: false
-[01:23:27] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[01:23:27] [Server thread/INFO]: Keep spawn chunk loaded: true
-[01:23:27] [Server thread/INFO]: World async lighting: false
-[01:23:27] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[01:23:27] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[01:23:27] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7563189628554396294)
-[01:23:28] [Server thread/INFO]: Preparing spawn area: 85%
-[01:23:28] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7563189628554396294)
-[01:23:29] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7563189628554396294)
-[01:23:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:23:29] [Server thread/INFO]: Done (2.330s)! For help, type "help" or "?"
-[01:23:29] [Server thread/INFO]: Starting GS4 status listener
-[01:23:29] [Server thread/INFO]: Setting default query port to 25565
-[01:23:29] [Server thread/INFO]: Timings Reset
-[01:23:29] [Query Listener #1/INFO]: Query running on localhost:25565
-[01:23:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@1d3e74f[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:45154) lost connection: Disconnected
-[01:24:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@4c2a085b[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:36436) lost connection: Disconnected
-[01:25:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@281f5a21[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:53418) lost connection: Disconnected
-[01:25:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@36b0912f[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:54078) lost connection: Disconnected
-[01:25:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@80d6d3[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:34598) lost connection: Disconnected
-[01:25:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@3bdb5137[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:34608) lost connection: Disconnected
-[01:26:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@1928ed26[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:34622) lost connection: Disconnected
-[01:26:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@49d43c2f[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:34982) lost connection: Disconnected
-[01:26:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@532f9975[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:34998) lost connection: Disconnected
-[01:28:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@c3ea619[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:37368) lost connection: Disconnected
-[01:28:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@52a13b65[id=<null>,name=Gabriel_Kuss,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:36220) lost connection: Disconnected
+[01:37:24] [Server thread/INFO]: Generating keypair
+[01:37:24] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[01:37:24] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[01:37:24] [Server thread/INFO]: Using default channel type
+[01:37:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:37:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:37:24] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[01:37:24] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[01:37:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:37:24] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:37:24] [Server thread/INFO]: Preparing level "world"
+[01:37:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:37:24] [Server thread/INFO]: Mob Spawn Range: 4
+[01:37:24] [Server thread/INFO]: Anti X-Ray: true
+[01:37:24] [Server thread/INFO]: 	Engine Mode: 1
+[01:37:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:37:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:37:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:37:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:37:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:37:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:37:24] [Server thread/INFO]: Random Lighting Updates: false
+[01:37:24] [Server thread/INFO]: Structure Info Saving: true
+[01:37:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:37:24] [Server thread/INFO]: Max Entity Collisions: 8
+[01:37:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:37:24] [Server thread/INFO]: Max TNT Explosions: 100
+[01:37:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:37:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:37:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:37:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:37:24] [Server thread/INFO]: View Distance: 4
+[01:37:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:37:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:37:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:37:24] [Server thread/INFO]: Clear tick list: false
+[01:37:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:37:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:37:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:37:24] [Server thread/INFO]: Max height for cactus growth 50. Max height for reed growth 10
+[01:37:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:37:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:37:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:37:24] [Server thread/INFO]: Water over lava flow speed: 5
+[01:37:24] [Server thread/INFO]: Fix TNT cannons: false
+[01:37:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:37:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:37:24] [Server thread/INFO]: World async lighting: false
+[01:37:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:37:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:37:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:37:24] [Server thread/INFO]: Mob Spawn Range: 4
+[01:37:24] [Server thread/INFO]: Anti X-Ray: true
+[01:37:24] [Server thread/INFO]: 	Engine Mode: 1
+[01:37:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:37:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:37:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:37:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:37:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:37:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:37:24] [Server thread/INFO]: Random Lighting Updates: false
+[01:37:24] [Server thread/INFO]: Structure Info Saving: true
+[01:37:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:37:24] [Server thread/INFO]: Max Entity Collisions: 8
+[01:37:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:37:24] [Server thread/INFO]: Max TNT Explosions: 100
+[01:37:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:37:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:37:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:37:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:37:24] [Server thread/INFO]: View Distance: 4
+[01:37:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:37:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:37:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:37:24] [Server thread/INFO]: Clear tick list: false
+[01:37:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:37:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:37:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:37:24] [Server thread/INFO]: Max height for cactus growth 50. Max height for reed growth 10
+[01:37:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:37:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:37:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:37:24] [Server thread/INFO]: Water over lava flow speed: 5
+[01:37:24] [Server thread/INFO]: Fix TNT cannons: false
+[01:37:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:37:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:37:24] [Server thread/INFO]: World async lighting: false
+[01:37:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:37:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:37:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:37:24] [Server thread/INFO]: Mob Spawn Range: 4
+[01:37:24] [Server thread/INFO]: Anti X-Ray: true
+[01:37:24] [Server thread/INFO]: 	Engine Mode: 1
+[01:37:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:37:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:37:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:37:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:37:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:37:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:37:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:37:24] [Server thread/INFO]: Random Lighting Updates: false
+[01:37:24] [Server thread/INFO]: Structure Info Saving: true
+[01:37:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:37:24] [Server thread/INFO]: Max Entity Collisions: 8
+[01:37:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:37:24] [Server thread/INFO]: Max TNT Explosions: 100
+[01:37:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:37:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:37:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:37:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:37:24] [Server thread/INFO]: View Distance: 4
+[01:37:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:37:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:37:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:37:24] [Server thread/INFO]: Clear tick list: false
+[01:37:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:37:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:37:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:37:24] [Server thread/INFO]: Max height for cactus growth 50. Max height for reed growth 10
+[01:37:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:37:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:37:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:37:24] [Server thread/INFO]: Water over lava flow speed: 5
+[01:37:24] [Server thread/INFO]: Fix TNT cannons: false
+[01:37:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:37:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:37:24] [Server thread/INFO]: World async lighting: false
+[01:37:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:37:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:37:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7563189628554396294)
+[01:37:25] [Server thread/INFO]: Preparing spawn area: 81%
+[01:37:26] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7563189628554396294)
+[01:37:26] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7563189628554396294)
+[01:37:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:37:27] [Server thread/INFO]: Done (2.489s)! For help, type "help" or "?"
+[01:37:27] [Server thread/INFO]: Starting GS4 status listener
+[01:37:27] [Server thread/INFO]: Timings Reset
+[01:37:27] [Query Listener #1/INFO]: Query running on localhost:25565
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: The server has stopped responding!
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Please report this to PaperSpigot directly!
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: PaperSpigot version: git-PaperSpigot-445 (MC: 1.8.8)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to PaperSpigot!):
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep(Thread.java:509)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:594)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 9 | Suspended: false | Native: false | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 10 | Suspended: false | Native: false | State: WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 11 | Suspended: false | Native: false | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Notification Thread
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Common-Cleaner
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: process reaper
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.TimerThread.mainLoop(Timer.java:563)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.TimerThread.run(Timer.java:516)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server Infinisleeper
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep(Thread.java:509)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_8_R3.DedicatedServer$1.run(DedicatedServer.java:54)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep(Thread.java:509)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:594)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: false | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Thread-3
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ProcessImpl.forkAndExec(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ProcessImpl.start(ProcessImpl.java:225)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Runtime.exec(Runtime.java:681)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Runtime.exec(Runtime.java:530)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.exec(TerminalLineSettings.java:196)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.exec(TerminalLineSettings.java:186)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.stty(TerminalLineSettings.java:181)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.get(TerminalLineSettings.java:74)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.getProperty(TerminalLineSettings.java:95)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.UnixTerminal.getWidth(UnixTerminal.java:76)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawBuffer(ConsoleReader.java:879)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawBuffer(ConsoleReader.java:898)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.drawLine(ConsoleReader.java:608)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_8_R3.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:38)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Server console handler
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: true | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.io.FileInputStream.readBytes(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.io.FileInputStream.read(FileInputStream.java:287)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.io.BufferedInputStream.implRead(BufferedInputStream.java:325)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.io.BufferedInputStream.read(BufferedInputStream.java:312)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:79)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: PaperSpigot Watchdog Thread
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 33 | Suspended: false | Native: false | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.management@21.0.5/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.management@21.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.management@21.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//org.spigotmc.WatchdogThread.run(WatchdogThread.java:76)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 34 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.TimerThread.mainLoop(Timer.java:563)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.util.TimerThread.run(Timer.java:516)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 35 | Suspended: false | Native: true | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		Locked on:java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.EPoll.wait(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:121)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: Query Listener #1
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 40 | Suspended: false | Native: true | State: RUNNABLE
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.Net.poll(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.DatagramChannelImpl.park(DatagramChannelImpl.java:511)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.DatagramChannelImpl.tryBlockingReceive(DatagramChannelImpl.java:762)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.DatagramChannelImpl.blockingReceive(DatagramChannelImpl.java:692)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/sun.nio.ch.DatagramSocketAdaptor.receive(DatagramSocketAdaptor.java:204)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.net.DatagramSocket.receive(DatagramSocket.java:714)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_8_R3.RemoteStatusListener.run(SourceFile:261)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	PID: 41 | Suspended: false | Native: false | State: TIMED_WAITING
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 	Stack:
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep0(Native Method)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.sleep(Thread.java:509)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_8_R3.FileIOThread.c(FileIOThread.java:52)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_8_R3.FileIOThread.run(FileIOThread.java:28)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: 		java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+[01:37:34] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[01:37:34] [PaperSpigot Watchdog Thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+
+[01:37:34] [Thread-2/INFO]: Stopping server
+[01:37:34] [Thread-2/INFO]: Saving players
