@@ -1,0 +1,88 @@
+[00:18:29] [main/INFO]: Using mbed TLS based native cipher.
+[00:18:29] [main/INFO]: Using zlib based native compressor.
+[00:18:29] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
+[00:18:29] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[00:18:29] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[00:18:29] [main/INFO]: Epoll is working, utilising it!
+[00:18:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[00:18:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[00:18:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[00:18:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[00:18:29] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[00:18:29] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[00:18:29] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[00:18:29] [main/INFO]: Attempting to Jenkins download module cmd_alert v579
+[00:18:30] [main/INFO]: Download complete
+[00:18:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[00:18:30] [main/INFO]: Attempting to Jenkins download module cmd_find v579
+[00:18:30] [main/INFO]: Download complete
+[00:18:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[00:18:30] [main/INFO]: Attempting to Jenkins download module cmd_list v579
+[00:18:30] [main/INFO]: Download complete
+[00:18:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[00:18:30] [main/INFO]: Attempting to Jenkins download module cmd_send v579
+[00:18:30] [main/INFO]: Download complete
+[00:18:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[00:18:30] [main/INFO]: Attempting to Jenkins download module cmd_server v579
+[00:18:30] [main/INFO]: Download complete
+[00:18:30] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[00:18:30] [main/INFO]: Attempting to Jenkins download module reconnect_yaml v579
+[00:18:30] [main/INFO]: Download complete
+[00:18:30] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:30] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:30] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:30] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:30] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:30] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:30] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[00:18:30] [main/WARN]: :>  
+[00:18:30] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[00:18:30] [main/WARN]: :>  
+[00:18:30] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[00:18:30] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[00:18:30] [main/WARN]: :>  apart from the versions listed below:
+[00:18:30] [main/WARN]: :>  
+[00:18:30] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:acb85e3:1871
+[00:18:30] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+[00:18:30] [main/WARN]: :>  
+[00:18:30] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[00:18:30] [main/WARN]: :>  
+[00:18:30] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[00:18:30] [main/WARN]: :>  
+[00:18:30] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[00:18:30] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[00:18:31] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[00:18:31] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.3.1 by lax1dude
+[00:18:31] [main/WARN]: Forced host server pvp is not defined
+[00:18:31] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:31] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:31] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:31] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:31] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:31] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[00:18:31] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[00:18:31] [Netty Boss IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[00:18:31] [main/INFO] [EaglercraftXBungee]: Downloading from maven: https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.45.0.0/sqlite-jdbc-3.45.0.0.jar
+[00:18:32] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[00:18:32] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[00:18:32] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.3.1 by lax1dude
+[00:18:32] [Netty Boss IO Thread #1/INFO]: Listening on /127.0.0.1:25577
+[00:18:32] [EaglerXBungee: Update Service Tasks/INFO] [EaglercraftXBungee]: Downloading new certificate: https://eaglercraft.com/backup.cert
+[00:18:32] [EaglerXBungee: Update Service Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/DormanSMP/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[00:35:25] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/DormanSMP/bungee/server-icon.png
+[00:36:24] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50226]: Connected via websocket
+[00:36:24] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50226]: Origin header is http://localhost:8081
+[00:36:24] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50226]: Logged in as 'Gabriel_Kuss'
+[00:36:24] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50226|Gabriel_Kuss] -> UpstreamBridge has connected
+[00:36:24] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:50226] <-> ServerConnector [lobby] has connected
+[00:36:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50226|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[00:36:44] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss] disconnected with: Proxy lost connection to server.
+[00:36:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:50226|Gabriel_Kuss] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:36:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38470]: Connected via websocket
+[00:36:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38470]: Origin header is http://localhost:8081
+[00:36:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38470]: Logged in as 'Gabriel_Kuss'
+[00:36:45] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38470|Gabriel_Kuss] -> UpstreamBridge has connected
+[00:36:45] [Netty Worker IO Thread #3/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:38470] <-> ServerConnector [lobby] has connected
+[00:38:27] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38470|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[00:38:27] [Netty Worker IO Thread #3/INFO]: [Gabriel_Kuss] disconnected with: Proxy lost connection to server.
+[00:38:27] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38470|Gabriel_Kuss] <-> DownstreamBridge <-> [lobby] has disconnected
