@@ -139,3 +139,28 @@
 [01:17:37] [Netty Worker IO Thread #0/INFO]: [gonnakms] disconnected with: Login timed out!
 [01:17:37] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38472|gonnakms] -> UpstreamBridge has disconnected
 [01:17:37] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38472|gonnakms] <-> DownstreamBridge <-> [lobby] has disconnected
+[01:18:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56630]: Connected via websocket
+[01:18:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56630]: Origin header is null
+[01:18:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56630]: Logged in as 'gonnakms'
+[01:18:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56630|gonnakms] -> UpstreamBridge has connected
+[01:18:44] [Netty Worker IO Thread #1/INFO]: [gonnakms|/[0:0:0:0:0:0:0:1%0]:56630] <-> ServerConnector [lobby] has connected
+[01:19:15] [Netty Worker IO Thread #1/INFO]: [gonnakms] disconnected with: Login timed out!
+[01:19:15] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56630|gonnakms] -> UpstreamBridge has disconnected
+[01:19:15] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56630|gonnakms] <-> DownstreamBridge <-> [lobby] has disconnected
+[01:20:01] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss] disconnected with: Server closed
+[01:20:01] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37894|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:20:01] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37894|Gabriel_Kuss] <-> DownstreamBridge <-> [lobby] has disconnected
+[01:20:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36514]: Connected via websocket
+[01:20:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36514]: Origin header is null
+[01:20:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36514]: Logged in as 'Gabriel_Kuss'
+[01:20:09] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36514|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:20:09] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for Gabriel_Kuss AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[01:20:09] [Netty Worker IO Thread #2/INFO]: [Gabriel_Kuss] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[01:20:09] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36514|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:20:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50848]: Connected via websocket
+[01:20:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50848]: Origin header is null
+[01:20:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50848]: Logged in as 'Gabriel_Kuss'
+[01:20:17] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50848|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:20:17] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for Gabriel_Kuss AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[01:20:17] [Netty Worker IO Thread #0/INFO]: [Gabriel_Kuss] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[01:20:17] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50848|Gabriel_Kuss] -> UpstreamBridge has disconnected

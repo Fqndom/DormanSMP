@@ -308,3 +308,17 @@
 [01:17:37] [Server thread/INFO]: Gabriel_Kuss fell out of the world
 [01:17:37] [Server thread/INFO]: [Gabriel_Kuss: Killed Gabriel_Kuss]
 [01:17:48] [Server thread/INFO]: Gabriel_Kuss issued server command: /back
+[01:18:44] [Thread-18/INFO]: UUID of player gonnakms is 8f7e75e8-18d6-38f0-b6a4-c0c4ad6ec888
+[01:18:44] [Server thread/INFO]: gonnakms[/[0:0:0:0:0:0:0:1]:38090] logged in with entity id 3733 at ([world]179.5, 75.0, 256.5)
+[01:18:52] [Server thread/INFO]: Opped gonnakms
+[01:18:57] [Async Chat Thread - #2/INFO]: <Gabriel_Kuss> you're an op now[m
+
+[01:19:02] [Server thread/INFO]: gonnakms issued server command: /shoot me
+[01:19:10] [Server thread/INFO]: gonnakms issued server command: /t lalalala
+[01:19:15] [Server thread/INFO]: gonnakms issued server command: /BRO
+[01:19:15] [Server thread/INFO]: gonnakms lost connection: Login timed out!
+[01:19:15] [Server thread/INFO]: gonnakms left the game.
+[01:19:15] [Server thread/WARN]: handleDisconnection() called twice
+[01:19:20] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[01:20:01] [Thread-2/INFO]: Stopping server
