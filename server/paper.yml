@@ -39,6 +39,7 @@ world-settings:
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
+    disable-teleportation-suffocation-check: false
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
@@ -71,7 +72,6 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    disable-teleportation-suffocation-check: false
     fast-drain:
       lava: true
       water: true
