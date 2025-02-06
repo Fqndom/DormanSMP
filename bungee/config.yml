@@ -14,7 +14,7 @@ permissions:
   - bungeecord.command.reload
   - bungeecord.command.kick
 timeout: 30000
-log_commands: false
+log_commands: true
 network_compression_threshold: 256
 online_mode: false
 servers:

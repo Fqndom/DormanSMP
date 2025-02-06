@@ -22,7 +22,7 @@ join:
   location: DEFAULT
   # Safely hides the player's inventory until the player is logged in
   # This required ProtocolLib to be installed
-  hide-inventory-safe: false
+  hide-inventory-safe: true
 username:
   # Remove special characters like @ and # from the username.
   # Disabling this can be a security risk!
