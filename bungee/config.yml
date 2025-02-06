@@ -16,7 +16,7 @@ permissions:
 timeout: 30000
 log_commands: false
 network_compression_threshold: 256
-online_mode: true
+online_mode: false
 servers:
   lobby:
     motd: '&1Official DHS Eaglercraft Server'
