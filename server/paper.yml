@@ -61,6 +61,7 @@ world-settings:
       falling-blocks: true
     remove-invalid-mob-spawner-tile-entities: true
     player-blocking-damage-multiplier: 0.5
+    disable-teleportation-suffocation-check: false
     game-mechanics:
       boats-drop-boats: true
       disable-player-crits: false
@@ -71,7 +72,6 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    disable-teleportation-suffocation-check: false
     fast-drain:
       lava: true
       water: true

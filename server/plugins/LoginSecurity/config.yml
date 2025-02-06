@@ -31,7 +31,7 @@ username:
   max-length: 16
 # Shortcut that can be used as alternative to login/register command. Does not replace the defaults
 command-shortcut:
-  enabled: false
+  enabled: true
   login: /l
   register: /reg
 updater:
@@ -39,7 +39,7 @@ updater:
   # The type of builds you are checking. RELEASE, BETA, ALPHA
   channel: BETA
 # Session timeout in seconds, set to -1 to disable.
-session-timeout: 0
+session-timeout: -1
 # Login timeout in seconds, set to -1 to disable.
 login-timeout: 30
 # Login/register message delay in seconds.
