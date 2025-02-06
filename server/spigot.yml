@@ -23,7 +23,7 @@ settings:
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
-  timeout-time: 60
+  timeout-time: -1
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: 4

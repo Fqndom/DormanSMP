@@ -207,3 +207,48 @@
 [01:25:15] [Netty Worker IO Thread #3/INFO]: [Gabriel_Kuss] disconnected with: Exception Connecting: QuietException : Server is online mode!
 [01:25:15] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52872|Gabriel_Kuss] -> UpstreamBridge has disconnected
 [01:25:15] [Netty Worker IO Thread #3/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:52872] <-> ServerConnector [lobby] has disconnected
+[01:25:53] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54670]: Connected via websocket
+[01:25:53] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54670]: Origin header is null
+[01:25:53] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54670]: Logged in as 'Gabriel_Kuss'
+[01:25:53] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54670|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:25:53] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54670] <-> ServerConnector [lobby] has connected
+[01:25:53] [Netty Worker IO Thread #1/ERROR]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54670] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[01:25:53] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss] disconnected with: Exception Connecting: QuietException : Server is online mode!
+[01:25:53] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54670|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:25:53] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54670] <-> ServerConnector [lobby] has disconnected
+[01:25:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54678]: Connected via websocket
+[01:25:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54678]: Origin header is null
+[01:25:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54678]: Logged in as 'Gabriel_Kuss'
+[01:25:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54678|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:25:55] [Netty Worker IO Thread #2/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54678] <-> ServerConnector [lobby] has connected
+[01:25:55] [Netty Worker IO Thread #2/ERROR]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54678] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[01:25:55] [Netty Worker IO Thread #2/INFO]: [Gabriel_Kuss] disconnected with: Exception Connecting: QuietException : Server is online mode!
+[01:25:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54678|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:25:55] [Netty Worker IO Thread #2/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54678] <-> ServerConnector [lobby] has disconnected
+[01:26:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54702]: Connected via websocket
+[01:26:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54702]: Origin header is null
+[01:26:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54702]: Logged in as 'Gabriel_Kuss'
+[01:26:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:54702|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:26:02] [Netty Worker IO Thread #0/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54702] <-> ServerConnector [lobby] has connected
+[01:26:02] [Netty Worker IO Thread #0/ERROR]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54702] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[01:26:02] [Netty Worker IO Thread #0/INFO]: [Gabriel_Kuss] disconnected with: Exception Connecting: QuietException : Server is online mode!
+[01:26:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:54702|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:26:02] [Netty Worker IO Thread #0/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:54702] <-> ServerConnector [lobby] has disconnected
+[01:26:04] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60682]: Connected via websocket
+[01:26:04] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60682]: Origin header is null
+[01:26:04] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60682]: Logged in as 'Gabriel_Kuss'
+[01:26:04] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60682|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:26:04] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:60682] <-> ServerConnector [lobby] has connected
+[01:26:04] [Netty Worker IO Thread #1/ERROR]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:60682] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[01:26:04] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss] disconnected with: Exception Connecting: QuietException : Server is online mode!
+[01:26:04] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60682|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:26:04] [Netty Worker IO Thread #1/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:60682] <-> ServerConnector [lobby] has disconnected
+[01:26:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60690]: Connected via websocket
+[01:26:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60690]: Origin header is null
+[01:26:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60690]: Logged in as 'Gabriel_Kuss'
+[01:26:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60690|Gabriel_Kuss] -> UpstreamBridge has connected
+[01:26:06] [Netty Worker IO Thread #2/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:60690] <-> ServerConnector [lobby] has connected
+[01:26:06] [Netty Worker IO Thread #2/ERROR]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:60690] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[01:26:06] [Netty Worker IO Thread #2/INFO]: [Gabriel_Kuss] disconnected with: Exception Connecting: QuietException : Server is online mode!
+[01:26:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60690|Gabriel_Kuss] -> UpstreamBridge has disconnected
+[01:26:06] [Netty Worker IO Thread #2/INFO]: [Gabriel_Kuss|/[0:0:0:0:0:0:0:1%0]:60690] <-> ServerConnector [lobby] has disconnected
