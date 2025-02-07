@@ -6,7 +6,7 @@
 # Don't change this if you don't know what it means
 isolation: SERIALIZABLE
 mysql:
-  enabled: false
+  enabled: true
   host: 'localhost:3306'
   username: 'root'
   password: ''
