@@ -2,7 +2,7 @@ server_connect_timeout: 5000
 enforce_secure_profile: false
 forge_support: true
 player_limit: -1
-ip_forward: true
+log_pings: true
 permissions:
   default:
   - bungeecord.command.server
@@ -17,6 +17,8 @@ timeout: 30000
 log_commands: true
 network_compression_threshold: 256
 online_mode: false
+disabled_commands:
+- disabledcommandhere
 servers:
   lobby:
     motd: '&1Official DHS Eaglercraft Server'
@@ -38,9 +40,7 @@ listeners:
   max_players: 100
   tab_size: 60
   force_default_server: true
-log_pings: true
-disabled_commands:
-- disabledcommandhere
+ip_forward: true
 remote_ping_timeout: 5000
 reject_transfers: false
 remote_ping_cache: -1
