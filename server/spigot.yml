@@ -14,6 +14,11 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: false
+  bungeecord: true
+  late-bind: false
+  sample-count: 12
+  player-shuffle: 0
+  filter-creative-items: true
   user-cache-size: 1000
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
@@ -29,11 +34,6 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  bungeecord: true
-  late-bind: false
-  sample-count: 12
-  player-shuffle: 0
-  filter-creative-items: true
 timings:
   enabled: true
   verbose: true
