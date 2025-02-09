@@ -1,55 +1,73 @@
-[13:44:10] [main/INFO]: Using mbed TLS based native cipher.
-[13:44:10] [main/INFO]: Using zlib based native compressor.
-[13:44:10] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
-[13:44:10] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
-[13:44:10] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[13:44:10] [main/INFO]: Epoll is working, utilising it!
-[13:44:10] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[13:44:10] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[13:44:10] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[13:44:10] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[13:44:10] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[13:44:10] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[13:44:10] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:10] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:10] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:10] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:10] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:10] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:10] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[13:44:10] [main/WARN]: :>  
-[13:44:10] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[13:44:10] [main/WARN]: :>  
-[13:44:10] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[13:44:10] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[13:44:10] [main/WARN]: :>  apart from the versions listed below:
-[13:44:10] [main/WARN]: :>  
-[13:44:10] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
-[13:44:10] [main/WARN]: :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
-[13:44:10] [main/WARN]: :>  
-[13:44:10] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
-[13:44:10] [main/WARN]: :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
-[13:44:10] [main/WARN]: :>  
-[13:44:10] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[13:44:10] [main/WARN]: :>  
-[13:44:10] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[13:44:10] [main/WARN]: :>  
-[13:44:10] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[13:44:10] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[13:44:11] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[13:44:11] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
-[13:44:11] [main/WARN]: Forced host server pvp is not defined
-[13:44:11] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:11] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:11] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:11] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:11] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:11] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
-[13:44:11] [Netty Boss IO Thread #0/ERROR] [EaglercraftXBungee]: Eaglercraft could not bind port: /0.0.0.0:8081
-[13:44:11] [Netty Boss IO Thread #0/ERROR] [EaglercraftXBungee]: Reason: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[13:44:12] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[13:44:12] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[13:44:12] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
-[13:44:12] [EaglerXBungee: Update Service Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/DormanSMP/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
-[13:44:12] [Netty Boss IO Thread #1/WARN]: Could not bind to host /127.0.0.1:25577
-io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[22:50:25] [main/INFO]: Using mbed TLS based native cipher.
+[22:50:25] [main/INFO]: Using zlib based native compressor.
+[22:50:25] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
+[22:50:25] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[22:50:26] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[22:50:26] [main/INFO]: Epoll is working, utilising it!
+[22:50:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[22:50:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[22:50:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[22:50:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[22:50:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[22:50:26] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[22:50:26] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:26] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:26] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:26] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:26] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:26] [main/WARN]: Error loading plugin KitPvP
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:395) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:301) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:290) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:68) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[22:50:26] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:26] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[22:50:26] [main/WARN]: :>  
+[22:50:26] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[22:50:26] [main/WARN]: :>  
+[22:50:26] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[22:50:26] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[22:50:26] [main/WARN]: :>  apart from the versions listed below:
+[22:50:26] [main/WARN]: :>  
+[22:50:26] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+[22:50:26] [main/WARN]: :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+[22:50:26] [main/WARN]: :>  
+[22:50:26] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+[22:50:26] [main/WARN]: :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+[22:50:26] [main/WARN]: :>  
+[22:50:26] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[22:50:26] [main/WARN]: :>  
+[22:50:26] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[22:50:26] [main/WARN]: :>  
+[22:50:26] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[22:50:26] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[22:50:27] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[22:50:27] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+[22:50:27] [main/WARN]: Forced host server pvp is not defined
+[22:50:27] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:27] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:27] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:27] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:27] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:27] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[22:50:27] [Netty Boss IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[22:50:27] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[22:50:27] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[22:50:27] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+[22:50:27] [Netty Boss IO Thread #1/INFO]: Listening on /127.0.0.1:25577
+[22:50:27] [EaglerXBungee: Update Service Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/DormanSMP/bungee/plugins/EaglercraftXBungee/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert

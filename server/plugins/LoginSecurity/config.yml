@@ -48,3 +48,7 @@ login-message-delay: 10
 # List: https://github.com/lenis0012/Translations
 # This setting should be set tot he file name without .json
 language: en_us
+registration:
+  # Whether to accept new registrations.
+  enabled: true
+  disabled-message: '&cRegistrations are currently disabled!'
