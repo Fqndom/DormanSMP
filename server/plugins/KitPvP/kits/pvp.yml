@@ -1,0 +1,24 @@
+Kit:
+  Permission: kp.kit.pvp
+  Cooldown: 0
+  Level: 0
+  Health: 20
+Inventory:
+  Items:
+    '0':
+      Material: SAPLING
+      Amount: 2
+    '1':
+      Material: STAINED_CLAY
+      Amount: 64
+      Durability: 15
+    '2':
+      Material: STAINED_CLAY
+      Amount: 60
+    '8':
+      Name: '&aReturn to Hub &7(Right Click)'
+      Material: WATCH
+Effects:
+  POISON:
+    Amplifier: 1
+    Duration: 18

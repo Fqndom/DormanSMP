@@ -283,3 +283,19 @@ Menu:
       Lore:
       - '&7Click to close the Kit Menu.'
       Commands: []
+    '0':
+      Name: '&a&lpvp Kit'
+      Material: BEDROCK
+      Lore:
+      - '&7This information can be modified in the'
+      - '&7menu.yml file. To disable automatic adding to the'
+      - '&7menu, disable AutomaticallyAddKitToMenu in the'
+      - '&7config.yml.'
+      - ' '
+      - '&e&eLeft-click to select.'
+      - '&eRight-click to preview.'
+      Commands:
+        Left-Click:
+        - 'player: kp kit pvp'
+        Right-Click:
+        - 'player: kp preview pvp'

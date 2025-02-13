@@ -121,7 +121,7 @@ Arena:
   GiveItemsOnRespawn: true
   GiveItemsOnJoin: true
   NoKitProtection: true
-  FancyDeath: true
+  FancyDeath: false
   ResetKillStreakOnLeave: true
   ToSpawnOnJoin: true
   DeathParticles: true
@@ -133,13 +133,13 @@ Other:
   AutomaticallyAddKitToMenu: true
 Spawn:
   Time: 5
-  Enabled: true
+  Enabled: false
 Arenas:
   world:
     '1':
-      World: world
-      X: 178
-      Y: 88
-      Z: 306
-      Yaw: 235.50006
-      Pitch: 34.95
+      World: Arena
+      X: 996
+      Y: 81
+      Z: 947
+      Yaw: 172.27454
+      Pitch: 20.047525
