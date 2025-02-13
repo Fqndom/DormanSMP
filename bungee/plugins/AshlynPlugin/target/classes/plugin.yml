@@ -1,0 +1,6 @@
+name: AshlynPlugin
+main: me.gabriel.ashlynplugin.ashlynplugin
+version: 1.0
+commands:
+  ashlyn:
+    description: Spawns tamed Ocelots and Wolves with a custom name.
